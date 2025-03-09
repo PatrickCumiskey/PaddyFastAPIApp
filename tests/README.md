@@ -13,13 +13,13 @@ pytest
 To run a specific test file:
 
 ```bash
-pytest tests/test_models.py
+pytest tests/models/test_models.py
 ```
 
 To run a specific test:
 
 ```bash
-pytest tests/test_models.py::test_sensor_model
+pytest tests//models/test_models.py::test_sensor_model
 ```
 
 ## Coverage
