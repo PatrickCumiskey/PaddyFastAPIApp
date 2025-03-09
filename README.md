@@ -116,7 +116,9 @@ The fastest way to get started and test the API is to:
    curl -X POST http://localhost:8000/test/create-sample-data/
    ```
 3. This will return a JSON response with a sensor ID
-4. Use this sensor ID to test other endpoints, for example:
+4. To list all sensors:
+   - `http://localhost:8000/sensors/`
+5. Use this sensor ID to test other endpoints, for example:
    - `http://localhost:8000/sensors/{sensor_id}/weekly-averages/`
    - `http://localhost:8000/metrics/?sensor_id={sensor_id}`
 
